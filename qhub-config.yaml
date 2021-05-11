@@ -12,7 +12,7 @@ security:
       primary_group: admin
       secondary_groups:
       - users
-      password: $2b$12$7anfP..rQCIXku5NcB8UUe/r/prfNRPhjOk5obTTcXQlIsgTnzwRi
+      password: $2b$12$9DyQT570wQ4lvwsCxjsjT.fveSvwvLH1pCSchkAVVRpZFrlPdMIiy
   groups:
     users:
       gid: 100
@@ -80,6 +80,7 @@ profiles:
       cpu_limit: 2
       cpu_guarantee: 1.5
       mem_limit: 8G
+      mem_guarantee: 5G
       image: quansight/qhub-jupyterlab:v0.3.11
   dask_worker:
     Small Worker:
