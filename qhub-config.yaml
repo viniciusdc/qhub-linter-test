@@ -7,7 +7,7 @@ security:
   authentication:
     type: password
   users:
-    example-user:
+    vcerutti@quansight.com:
       uid: 1000
       primary_group: admin
       secondary_groups:
