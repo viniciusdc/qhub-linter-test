@@ -2,8 +2,6 @@ name: "QHub validate linter"
 
 on:
   pull_request:
-    branches:
-      - "main"
     paths:
       - "qhub-config.yaml"
 
