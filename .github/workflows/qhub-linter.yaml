@@ -21,7 +21,7 @@ jobs:
           python-version: 3.8
       - name: Install qhub
         run: |
-          pip install qhub==0.3.11
+          pip install git+git://github.com/Quansight/qhub.git@qhub-linter
       - name: 'Qhub Linterfy'
         env:
           PR_NUMBER: ${{ github.event.number }}
