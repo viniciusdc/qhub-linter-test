@@ -93,6 +93,7 @@ profiles:
       worker_cores_limit: 2
       worker_cores: 1.5
       worker_memory_limit: 8G
+      worker_memory: 5G
       worker_threads: 2
       image: quansight/qhub-dask-worker:v0.3.11
 environments:
