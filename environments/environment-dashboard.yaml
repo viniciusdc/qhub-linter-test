@@ -1,0 +1,5 @@
+channels: [conda-forge]
+dependencies: [python, ipykernel, ipywidgets >=7.6, param, python-graphviz, matplotlib
+    >=3.3.4, panel >=0.10.3, voila >=0.2.7, streamlit >=0.76, dash >=1.19, cdsdashboards-singleuser
+    >=0.5.6]
+name: dashboard
