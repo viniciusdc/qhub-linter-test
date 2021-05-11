@@ -80,7 +80,6 @@ profiles:
       cpu_limit: 2
       cpu_guarantee: 1.5
       mem_limit: 8G
-      mem_guarantee: 5G
       image: quansight/qhub-jupyterlab:v0.3.11
   dask_worker:
     Small Worker:
