@@ -12,7 +12,7 @@ security:
       primary_group: admin
       secondary_groups:
       - users
-      password: $2b$12$7anfP..rQCIXku5NcB8UUe/r/prfNRPhjOk5obTTcXQlIsgTnzwRi
+      password: $2b$12$9DyQT570wQ4lvwsCxjsjT.fveSvwvLH1pCSchkAVVRpZFrlPdMIiy
   groups:
     users:
       gid: 100
@@ -94,6 +94,7 @@ profiles:
       worker_cores_limit: 2
       worker_cores: 1.5
       worker_memory_limit: 8G
+      worker_memory: 5G
       worker_threads: 2
       image: quansight/qhub-dask-worker:v0.3.11
 environments:
